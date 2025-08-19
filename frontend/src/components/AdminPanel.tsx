@@ -28,7 +28,6 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({
     }
 
     const isFullWithdrawal = !amount;
-    const amountToWithdraw = amount || currentBalance;
 
     if (
       !isFullWithdrawal &&
