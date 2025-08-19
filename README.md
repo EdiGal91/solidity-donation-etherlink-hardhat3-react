@@ -1,10 +1,16 @@
 # Donation Smart Contract
 
-A secure donation smart contract where anyone can donate ETH, but only the deployer (owner) can withdraw funds. Built with modern Solidity best practices for deployment on Etherlink testnet.
+A secure donation smart contract where anyone can donate XTZ, but only the deployer (owner) can withdraw funds. Built with modern Solidity best practices for deployment on Etherlink testnet.
+
+## 🌐 Live Deployment
+
+- **Frontend**: [https://donation-etherlink-testnet.onrender.com/](https://donation-etherlink-testnet.onrender.com/)
+- **Smart Contract**: [https://testnet.explorer.etherlink.com/address/0x9611f46D3Ff06F236Be51372286975ffFc6cCB3f](https://testnet.explorer.etherlink.com/address/0x9611f46D3Ff06F236Be51372286975ffFc6cCB3f)
+- **Network**: Etherlink Testnet (Chain ID: 128123)
 
 ## 🚀 Features
 
-- **Open Donations**: Anyone can donate ETH to the contract
+- **Open Donations**: Anyone can donate XTZ to the contract
 - **Owner-Only Withdrawals**: Only the contract deployer can withdraw funds
 - **Partial/Full Withdrawals**: Support for both full and partial withdrawals
 - **Donation Tracking**: Track individual donor contributions and total donations
@@ -17,7 +23,7 @@ A secure donation smart contract where anyone can donate ETH, but only the deplo
 - **Access Control**: Owner-only withdrawal functions
 - **Reentrancy Protection**: Prevents reentrancy attacks on withdrawal functions
 - **Input Validation**: Proper validation of all inputs
-- **Safe ETH Transfers**: Uses `call` instead of `transfer` for better gas handling
+- **Safe XTZ Transfers**: Uses `call` instead of `transfer` for better gas handling
 - **Custom Errors**: Gas-efficient error handling with custom error types
 
 ## 📋 Contract Overview
@@ -34,7 +40,7 @@ A secure donation smart contract where anyone can donate ETH, but only the deplo
 
 - `DonationReceived` - Emitted when donations are received
 - `FundsWithdrawn` - Emitted when funds are withdrawn
-- `DirectTransferReceived` - Emitted for direct ETH transfers
+- `DirectTransferReceived` - Emitted for direct XTZ transfers
 
 ## 🏗️ Setup and Installation
 
